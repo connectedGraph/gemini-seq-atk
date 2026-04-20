@@ -214,6 +214,35 @@ This project is intended only for security research, archiving, and risk discuss
 
 If you are a model vendor or a security-team member and would like to validate these findings, testing should be conducted only in isolated, authorized, and compliant environments, and formal vulnerability-disclosure channels should be used wherever possible.
 
+## Tested Surfaces / 测试覆盖面说明
+
+Testing indicates that the issue is **not limited to a single access surface**. The behavior was reproducible in both the **web interface** and the **API/SDK calling path**.
+
+At the time of testing, the affected model surfaces included:
+
+- `gemini-3-flash`
+- `gemini-3-flash-preview`
+- `gemini-3.1-pro`
+- `gemini-3.1-pro-preview`
+
+This report therefore does **not** describe an isolated frontend artifact. The observed safety degradation and abnormal-response behavior appeared across both consumer-facing and programmatic access paths.
+
+## Screenshots
+
+![Figure 1](./assets/1.png)
+![Figure 2](./assets/2.png)
+![Figure 3](./assets/3.png)
+![Figure 4](./assets/4.png)
+![Figure 5](./assets/5.png)
+![Figure 6](./assets/6.png)
+![Figure 7](./assets/7.png)
+![Figure 8](./assets/8.png)
+![Figure 9](./assets/9.png)
+![Figure 10](./assets/10.png)
+![Figure 11](./assets/11.png)
+![Figure 12](./assets/12.png)
+![Figure 13](./assets/13.png)
+
 ---
 
 ## 中文版本
@@ -426,6 +455,19 @@ except Exception as e:
 * 不鼓励在公共环境中对在线服务进行未经授权的攻击测试
 
 如你是模型厂商或安全团队成员，并希望复核相关现象，应在隔离、授权、合规的环境中完成验证，并优先走正式漏洞披露渠道。
+
+## 测试覆盖面说明
+
+测试表明，该问题**并非仅限于单一访问入口**，而是在 **网页端** 与 **API / SDK 调用链路** 中均可复现。
+
+在当前测试中，出现相关异常表现的模型面包括：
+
+- `gemini-3-flash`
+- `gemini-3-flash-preview`
+- `gemini-3.1-pro`
+- `gemini-3.1-pro-preview`
+
+因此，本文所描述的问题**不应被理解为单纯的前端表现异常**，而更接近于同时覆盖消费者界面与程序化调用路径的模型级风险现象。
 
 ## Screenshots
 
