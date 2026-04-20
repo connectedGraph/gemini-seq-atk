@@ -11,6 +11,10 @@
 
 ---
 
+> **Research Tooling**  
+> This research was supported by a custom Python GUI helper used for prompt construction, payload assembly, clipboard copying, and repeated test orchestration. The tool was built to reduce manual friction and improve reproducibility across both web and API test surfaces.
+> See: [`prompt_builder.py`](./prompt_builder.py)
+
 ### Overview
 
 This project documents a class of security risks observed in the Gemini 3 series: when an attacker constructs an extremely long, low-semantic-density sequence of special characters and embeds a sensitive or disallowed instruction inside it, the model’s refusal behavior, content-safety logic, and output stability may all degrade significantly.
