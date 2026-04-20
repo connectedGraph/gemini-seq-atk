@@ -1,7 +1,6 @@
 # Safety Failure and Abnormal Output Risks in Gemini 3 Series Under Long-Sequence Special-Character Injection  
 # Gemini 3 系列模型在长序列特殊字符注入下导致的安全保护机制失效与异常响应风险研究
 
-**English first / 英文在前**  
 [English](#english-version) | [中文](#中文版本)
 
 ---
