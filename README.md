@@ -427,20 +427,18 @@ except Exception as e:
 
 如你是模型厂商或安全团队成员，并希望复核相关现象，应在隔离、授权、合规的环境中完成验证，并优先走正式漏洞披露渠道。
 
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
-       : [图片]
+## Screenshots
+
+![Figure 1](./assets/1.png)
+![Figure 2](./assets/2.png)
+![Figure 3](./assets/3.png)
+![Figure 4](./assets/4.png)
+![Figure 5](./assets/5.png)
+![Figure 6](./assets/6.png)
+![Figure 7](./assets/7.png)
+![Figure 8](./assets/8.png)
+![Figure 9](./assets/9.png)
+![Figure 10](./assets/10.png)
+![Figure 11](./assets/11.png)
+![Figure 12](./assets/12.png)
+![Figure 13](./assets/13.png)
