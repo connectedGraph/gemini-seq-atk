@@ -1,6 +1,9 @@
 # Safety Failure and Abnormal Output Risks in Gemini 3 Series Under Long-Sequence Special-Character Injection  
 # Gemini 3 系列模型在长序列特殊字符注入下导致的安全保护机制失效与异常响应风险研究
 
+>在最新的3.1-flash-lite 3.5-flash 中 无法复现，旧模型已在网页版中不可再生效，API端还未测试。本仓库可暂时忽略。
+>This issue cannot be reproduced in the latest 3.1-flash-lite or 3.5-flash models. The older models are no longer effective in the web version; I haven't tested the API side yet. You can temporarily ignore this repository.
+
 [English](#english-version) | [中文](#中文版本)
 
 ---
